@@ -1,0 +1,9 @@
+@media (max-width:688px) {
+    .wrapper-tr img{
+        width: 90px;
+        display: flex;
+    }
+    .responsive{
+        display: none;
+    }
+}

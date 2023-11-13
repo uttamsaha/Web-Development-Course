@@ -1,0 +1,45 @@
+.div-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 110px;
+    margin-bottom: 70px;
+}
+
+
+.about-image{
+    width: 720px;
+}
+.title{
+    color: #3741fe;
+    font-size: 48px;
+}
+.title1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.about-info{
+    font-size: 21px;
+    text-align: justify;
+}
+
+@media (max-width:688px) {
+    .div-container{
+        flex-direction: column;
+    }
+    .title,.title1{
+        font-size: 35px;
+        padding: 0px 15px;
+    }
+    .about-image{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .about-info{
+        padding: 0px 15px;
+        font-size: 17px;
+    }
+    .div-container{
+        margin-top: 50px;
+    }
+}

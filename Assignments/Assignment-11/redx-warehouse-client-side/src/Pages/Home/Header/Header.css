@@ -1,0 +1,22 @@
+.signOut-btn{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 0px 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.signOut-btn:hover{
+    background-color: orangered;
+}
+.header{
+    height: 90px;
+    background-color: #262728 !important;
+}
+
+@media (max-width:688px) {
+    .header{
+        height: auto;
+    }
+}

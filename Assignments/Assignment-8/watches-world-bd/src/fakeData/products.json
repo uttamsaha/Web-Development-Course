@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name":"Navi Force NF9153",
+        "price": 1750,
+        "img": "https://static-01.daraz.com.bd/p/4ba557ac9759f5446c3a3b333d0f1a17.jpg"
+    },
+    {
+        "id": 2,
+        "name":"JKTGY WD1 Cool Quartz",
+        "price": 140,
+        "img": "https://static-01.daraz.com.bd/p/b60d292d230e19a98e2928647de053da.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Navi force NF9117",
+        "price": 1650,
+        "img": "https://static-01.daraz.com.bd/p/93ca3ea2a713856238f7ead3c09a7965.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Fashonable watch",
+        "price": 150,
+        "img": "https://static-01.daraz.com.bd/p/166a7e238b66af32ec85e77ad96e0d9d.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Stainless Steel analog watch",
+        "price": 230,
+        "img": "https://static-01.daraz.com.bd/p/323387ee1d34f013cc7685053fd92eb4.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Black New Model Watch",
+        "price": 230,
+        "img": "https://static-01.daraz.com.bd/p/a6ca2890523abd01c338c6e01cab7e1f.jpg"
+    },
+    {
+        "id": 7,
+        "name":"Fashonable watch for Men",
+        "price": 299,
+        "img": "https://static-01.daraz.com.bd/p/0d4dc841f9ad5c219bacbf4d9c004cca.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Stainless Steel Chronograph Watch",
+        "price": 361,
+        "img": "https://static-01.daraz.com.bd/p/572ca3acddcdb984bb2a235befdb0cf1.jpg"
+    },
+    {
+        "id": 9,
+        "name":"NAVI forCE NF9163",
+        "price": 1700,
+        "img": "https://static-01.daraz.com.bd/p/e43c80293b4490d9fc94754e939deb43.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Super LED WATCH",
+        "price": 110,
+        "img": "https://static-01.daraz.com.bd/p/2bedab041e88b072e5223e744ec80a04.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Stylish Watch steel Chaine",
+        "price": 195,
+        "img": "https://static-01.daraz.com.bd/p/19d32b45bb4cca809f22c4b77d385fbb.jpg"
+    },
+    {
+        "id": 12,
+        "name":"Black Bariho Analog Watch",
+        "price": 130,
+        "img": "https://static-01.daraz.com.bd/p/ef9c03416447081fd8f561fdccc477ae.jpg"
+    }
+]

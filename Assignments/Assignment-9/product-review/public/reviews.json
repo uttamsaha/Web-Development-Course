@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Shohedul Islam",
+        "comment": "This is the one of the best car selling website I have ever seen. You guys are working hard. Best wishes to all of you. Carry on guys! Keep hard working. God bless you.",
+        "img": "https://i.postimg.cc/x8qyMn3y/1.png",
+        "ratings": 5
+    },
+    {
+        "id": 2,
+        "name": "Jon Doe",
+        "comment": "I bought a car recently from your website. Really awesome delivery system and all your things. I was really happy to see my own car fist time. God wishes guys.",
+        "img": "https://i.postimg.cc/DZp12R3W/2.png",
+        "ratings": 4
+    },
+    {
+        "id": 3,
+        "name": "Alex Robarto",
+        "comment": "Wow!! I am really glad to your servicing policy. Recently a part of my car was broken. You guys fixed it and sent it to me very fast. Really great servicing guys!",
+        "img": "https://i.postimg.cc/W3zJfSqs/3.png",
+        "ratings": 4
+    },
+    {
+        "id": 4,
+        "name": "Uttam Saha",
+        "comment": "Everything is really cool here. I am very happy to be a customer of your company. You guys make your best to make here all types of car available. Good Luck guys",
+        "img": "https://i.postimg.cc/Kzh8tN79/4.png",
+        "ratings": 5
+    },
+    {
+        "id": 5,
+        "name": "Ronit Pandey",
+        "comment": "I am very impressed on your service. I ordered a car from out of your coverage selling area from outside country. You guys helped me a lot to deliver to my country. Thanks a lot.",
+        "img": "https://i.postimg.cc/y8nGmYF2/5.png",
+        "ratings": 4
+    },
+    {
+        "id": 6,
+        "name": "Pratik Singha",
+        "comment": "Really Cool, I have brought a car recently form you. It's running well. All the best guys. Hopefully it will be one of the best car selling company in the world. Good Luck!",
+        "img": "https://i.postimg.cc/rFfbWwG3/6.png",
+        "ratings": 3
+    }
+]

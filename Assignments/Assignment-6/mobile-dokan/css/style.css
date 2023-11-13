@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f4fa;
+}
+#search-result {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+/* cards container  */
+.phone-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.phone-container img {
+  padding-top: 20px;
+  width: 320px;
+}
+/* spinner & error message  */
+#spinner {
+  display: none;
+}
+#error-msg {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+#phone-details {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+}
+.search-details img{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.search-details{
+    margin: 10px 20px;
+}
+#load-more{
+    display: none;
+    margin-bottom: 100px;
+}
+#load-more-phones{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 30px;
+
+}
+
+/* phone devices responsive  */
+@media (max-width: 688px) {
+  #search-result {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .phone-container img {
+    padding-top: 20px;
+    width: 260px;
+  }
+  #input-field {
+    width: 300px !important;
+    margin: 0;
+  }
+  .input-area {
+    margin: 5px !important;
+    width: 300px !important;
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+  }
+  #button-addon2 {
+    margin-top: 10px;
+  }
+  #load-more-phones{
+  grid-template-columns: repeat(1,1fr);
+  grid-column-gap: 20px;
+
+}
+}

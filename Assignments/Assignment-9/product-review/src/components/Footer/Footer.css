@@ -1,0 +1,26 @@
+.footer{
+    text-align: center;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    /* padding-top: 50px; */
+    /* position:relative;
+    bottom: 0; */
+}
+.footer h1{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.social-icons a{
+    color: white;
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+@media (max-width:688px) {
+    .footer h1{
+        font-size: 36px;
+    }
+}

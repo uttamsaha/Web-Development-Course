@@ -1,0 +1,26 @@
+.doctor-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.my-doctor{
+    margin-top: 40px;
+}
+.doctor-container h1{
+    /* font-size: 60px; */
+    font-weight: bolder;
+}
+.doctor-title{
+    color: #44A3FF;
+}
+.doctor-container p{
+    text-align: justify;
+}
+@media (max-width:688px) {
+    .doctor-container{
+        flex-direction: column;
+    }
+    .doctor-container img{
+        width: 95%;
+    }
+}

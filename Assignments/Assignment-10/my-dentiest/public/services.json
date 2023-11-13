@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Dental Implant",
+        "price": 140,
+        "img": "https://i.postimg.cc/DZNT5BSF/dental-implant.png",
+        "description": "I provide Dental Implant. A dental implant is an artificial tooth root that's placed into your jaw to hold a prosthetic tooth or bridge. Feel free to book. Thank you."
+    },
+    {
+        "id": 2,
+        "name": "Teeth Braces",
+        "price": 280,
+        "img": "https://i.postimg.cc/6QywZkQz/treeth-backs.png",
+        "description": "Braces are dental tools that help correct problems with your teeth, like crowding, crooked teeth, or teeth that are out of alignment. Thank you."
+    },
+    
+    {
+        "id": 3,
+        "name": "Teeth Whitening",
+        "price": 350,
+        "img": "https://i.postimg.cc/26LzssR3/theet-whitering.png",
+        "description": "Now days peoples are suffering from teeth affecting. I am providing the Teeth Whitening Service at low cost. Feel free to visit & contact me.Thank a lot."
+    },
+    {
+        "id": 4,
+        "name": "Dental Surgery",
+        "price": 250,
+        "img": "https://i.postimg.cc/wjz7hjK2/dental-surgery.png",
+        "description": "If you need dental surgery you can contact. I have 10 years of experience of dental surgery. Thank you. Don't forget to visit me."
+    },
+    {
+        "id": 5,
+        "name": "Root Canal",
+        "price": 450,
+        "img": "https://i.postimg.cc/pdXr6cLn/root-canal.png",
+        "description": "I also provide Root Canal Service.Its a dental procedure involving the removal of the soft center of the tooth, the pulp.You can visit me."
+    },
+    {
+        "id": 6,
+        "name": "Teeth Prosthesis",
+        "price": 650,
+        "img": "https://i.postimg.cc/76jLbxMg/teeth-protestis.png",
+        "description": "Prosthesis is recommended when the lack of teeth is extensive or if the position of the teeth or the quality of the jaw bone."
+    }
+    
+]

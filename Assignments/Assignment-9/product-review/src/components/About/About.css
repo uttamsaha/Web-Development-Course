@@ -1,0 +1,29 @@
+.about-us{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e2b3d;
+    color: white;
+}
+.about-us img{
+    width: 50%;
+    /* margin-top: -100px; */
+}
+.about-us p{
+    width: 80%;
+    margin-top: -160px;
+    font-size: 23px;
+
+}
+
+@media (max-width:688px) {
+    .about-us img{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+    .about-us p{
+        font-size: 20px;
+    }
+
+}

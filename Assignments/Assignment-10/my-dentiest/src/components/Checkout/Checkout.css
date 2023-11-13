@@ -1,0 +1,11 @@
+.inputs input {
+  width: 700px !important;
+  height: 50px;
+  margin-bottom: 20px;
+}
+form {
+  /* background-color: darkblue; */
+}
+.checkout-container {
+    background-color: #FAF9F6;
+}

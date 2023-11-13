@@ -1,0 +1,215 @@
+main {
+  font-family: "Poppins", sans-serif;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.flexible-container {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.half-width {
+  width: 50%;
+  padding: 3%;
+}
+.font-color {
+  color: orange;
+}
+.half-width img {
+  width: 70%;
+  margin-top: -60px;
+  margin-left: 30px;
+}
+
+.btn-property {
+  display: block;
+  text-decoration: none;
+  background-color: #f15656;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  padding: 12px 30px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mission-area h1 {
+  text-align: center;
+  font-size: 55px;
+}
+.mission-item img {
+  width: 36%;
+}
+
+.mission-item {
+  width: 33%;
+  padding: 25px;
+  background-color: orange;
+  margin: 10px;
+  text-align: justify;
+}
+.mission-area {
+  margin-bottom: 120px;
+}
+#bg-color1 {
+  background-color: #e0e8e9;
+  border-radius: 20px;
+}
+#bg-color2 {
+  background-color: #f1e1e1;
+  border-radius: 20px;
+}
+#bg-color3 {
+  background-color: #f1e8cb;
+  border-radius: 20px;
+}
+.custom-font-yeseva-one {
+  font-family: "Yeseva One", cursive;
+  font-size: 65px;
+  word-spacing: 5px;
+}
+.custom-font-lobster {
+  font-family: "Lobster", cursive;
+}
+.left-border {
+  border-left: 6px solid #ee5353;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+
+.working-hard-section {
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-y: 80px;
+  background-position-x: -2px;
+  background-size: 18%;
+  margin-bottom: 100px;
+}
+
+.community-section {
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 1130px;
+  background-position-y: 290px;
+  background-size: 15%;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+}
+.contact-section {
+  background-image: url(../images/background/bg1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.contact-section h1 {
+  text-align: center;
+}
+.fas,
+.fab {
+  font-size: 30px;
+  color: rgb(56, 52, 52);
+  margin-bottom: 12px;
+  font-size: 25px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 450px;
+  height: 40px;
+}
+
+input[type="email"] {
+  width: 450px;
+  height: 40px;
+}
+input[type="number"] {
+  width: 450px;
+  height: 40px;
+}
+input,
+textarea {
+  width: 500px !important;
+  padding-left: 10px;
+  outline: none;
+  border: 2px solid lightgray;
+}
+.text-decoration {
+  text-decoration: none;
+  color: black;
+}
+.text-align-left {
+  margin-left: -150px;
+}
+footer {
+  width: 100%;
+  height: 190px;
+  background-color: black;
+  padding-bottom: 10px;
+  margin-bottom: -8px;
+}
+footer h1 {
+  text-align: center;
+  color: white;
+  padding-top: 45px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 688px) {
+  .half-width {
+    width: 100% !important;
+  }
+  .flexible-container {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .mission-item {
+    width: 70%;
+  }
+  .custom-font-yeseva-one {
+    font-size: 40px;
+  }
+  .my-mission-title {
+    font-size: 32px !important;
+  }
+  .working-hard-section h1 {
+    font-size: 28px;
+  }
+  .text-align-left {
+    margin: 0;
+  }
+  .community-section {
+    margin: 0;
+  }
+  .community-section h1 {
+    font-size: 28px;
+  }
+  .community-section img {
+    margin-top: 30px;
+  }
+  .contact-section h1 {
+    font-size: 30px;
+  }
+  .working-hard-section{
+    margin-bottom: 20px;
+  }
+  input,
+  textarea {
+    width: 300px !important;
+  }
+}

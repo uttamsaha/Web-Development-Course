@@ -1,0 +1,44 @@
+.product{
+    width: 330px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    padding: 14px;
+    position: relative;
+}
+.product img{
+    width: 330px;
+    
+}
+.product h3, h4{
+    margin: 0;
+    padding: 0;
+}
+.product h4{
+    margin-bottom: 10px;
+}
+.product button{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    background-color: sandybrown;
+    padding: 12px 0px;
+    border-radius: 0px 0px 8px 8px;
+    color: white;
+    background-color: rgba(47, 47, 245, 0.925);
+    font-weight: bold;
+    cursor: pointer;
+}
+.font-awesome{
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+@media (max-width:688px) {
+    .product{
+        margin-left: 15px;
+    }
+    
+}

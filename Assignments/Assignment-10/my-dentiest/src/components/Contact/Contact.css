@@ -1,0 +1,29 @@
+.contact-container{
+    display: flex;
+}
+
+.wrapper-inputs{
+    margin-left: 50px;
+}
+@media (max-width:688px) {
+    .contact-container{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .map-container{
+        margin: 0px;
+        padding: 0px;
+        width: 95%;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+    .wrapper-map{
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrapper-inputs{
+        margin-left: 0px;
+        width: 95%;
+    }
+}

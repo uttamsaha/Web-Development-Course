@@ -1,0 +1,11 @@
+.qsn-ans{
+    padding: 30px 200px;
+    background-color: #1d293a;
+    color: white;
+}
+
+@media (max-width:688px) {
+    .qsn-ans{
+        padding: 15px;
+    }
+}

@@ -1,0 +1,21 @@
+.products-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 60px;
+}
+
+@media (max-width:688px) {
+    .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .products-container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

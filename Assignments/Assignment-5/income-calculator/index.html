@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link fontawesome  -->
+    <script src="https://kit.fontawesome.com/ff4421e871.js" crossorigin="anonymous"></script>
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+    <title>Income Calculator</title>
+</head>
+
+<body>
+    <!-- Header Area  -->
+    <header>
+        <div class="container">
+            <h1>Income Calculator <i class="fa-solid fa-dollar-sign"></i></h1>
+            <div class="banner">
+                <div class="left-image">
+                    <img src="images/money.png" alt="">
+                </div>
+                <div class="income-calculation">
+                    <div class="income-fields">
+                        <p>Income</p>
+                        <span id="income">Income: </span>
+                        <input id="income-input" type="text" placeholder="Enter your income">
+                        <h5 id="number-error" class="error-msg"> Error <img src="images/cross.png" alt=""> Enter
+                            number value</h5>
+                        <h5 id="negative-error" class="error-msg">Error <img src="images/cross.png" alt=""> Enter
+                            positive Number</h5>
+                        <p>Expensess</p>
+                        <span id="food">Food: </span>
+                        <input id="food-input" type="text" placeholder="Enter Food Cost"> <br>
+                        <h5 id="number-error2" class="error-msg"> Error <img src="images/cross.png" alt=""> Enter
+                            number value</h5>
+                        <h5 id="negative-error2" class="error-msg">Error <img src="images/cross.png" alt="">
+                            Enter positive Number</h5>
+                        <span id="rent">Rent: </span>
+                        <input id="rent-input" type="text" placeholder="Enter Rent Cost"> <br>
+                        <h5 id="number-error3" class="error-msg"> Error <img src="images/cross.png" alt=""> Enter
+                            number value</h5>
+                        <h5 id="negative-error3" class="error-msg">Error <img src="images/cross.png" alt=""> Enter
+                            positive Number</h5>
+                        <span id="cloth">Clothes: </span>
+                        <input id="cloth-input" type="text" placeholder="Enter Clothes Cost"> <br>
+                        <h5 id="number-error4" class="error-msg"> Error <img src="images/cross.png" alt=""> Enter
+                            number value</h5>
+                        <h5 id="negative-error4" class="error-msg">Error <img src="images/cross.png" alt=""> Enter
+                            positive Number</h5>
+                        <button id="calculate-btn">Calculate</button>
+                        <p>Total Expensess: <span id="total-expenses">0</span> </p>
+                        <p>Balance: <span id="balance-text">0</span> </p>
+
+                        <span id="save">Save: </span> <input id="saving-input" type="text" placeholder="savings"> %
+                        <button id="save-btn">Save</button>
+                        <h5 id="number-error5" class="error-msg"> Error <img src="images/cross.png" alt=""> Enter
+                            number value</h5>
+                        <h5 id="negative-error5" class="error-msg">Error <img src="images/cross.png" alt=""> Enter
+                            positive Number</h5>
+                        <p>Saving Amount: <span id="saving-amount">0</span></p>
+                        <p>Remaining Balance: <span id="remaining-balance">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- link js -->
+    <script src="js/income.js"></script>
+</body>
+
+</html>

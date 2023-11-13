@@ -1,0 +1,41 @@
+/* import custom font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* custom card style section  */
+.custom-card-style{
+  position: relative;
+  top: -50px;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+  width: 300px;
+  background-color: #3e80e8;
+}
+/* cusotm button  */
+.custom-button {
+  background: #f0e8ee;
+  border-radius: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.custom-btn{
+  background: white;
+  border-radius: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* font awesome icon customize  */
+.fa-check-circle{
+    color: #5243C2;
+}
+.custom-fa{
+    color: white;
+}
+
+.custom-font-manrope{
+  font-family: 'Manrope', sans-serif;
+}

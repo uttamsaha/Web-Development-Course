@@ -1,0 +1,169 @@
+/* fontawesome link  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* container area  */
+header {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 1450px;
+}
+.container h1 {
+  color: #31a5ac;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.banner {
+  display: flex;
+  gap: 80px;
+}
+/* income calculation  */
+.income-calculation {
+  width: 600px;
+  height: 815px;
+  background-color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+}
+.income-fields {
+  margin-top: 30px;
+}
+.income-fields span {
+  font-size: 18px;
+  color: #000000;
+}
+.income-fields p {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#income {
+  margin-left: 144px;
+}
+#food {
+  margin-left: 167px;
+}
+#rent {
+  margin-left: 171px;
+}
+#cloth {
+  margin-left: 146px;
+}
+/* button design  */
+#calculate-btn {
+  margin-left: 216px;
+  width: 180px;
+  height: 45px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  background-color: #59a5ff;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#save-btn {
+  width: 150px;
+  height: 44px;
+  outline: none;
+  border: none;
+  background-color: #59a5ff;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#saving-input {
+  width: 132px;
+  height: 44px;
+  margin-right: 10px;
+}
+#save {
+  margin-left: 98px;
+}
+input {
+  background-color: #dcdcdc;
+  outline: none;
+  border: none;
+  width: 229px;
+  height: 44px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.fa-solid {
+  color: goldenrod;
+}
+.error-msg img {
+  width: 25px;
+}
+/* error message handle  */
+.error-msg {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: red;
+  display: none;
+  margin-top: -15px;
+  margin-left: 55px;
+}
+
+/* mobile version responsive Media query  */
+@media (max-width: 688px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .banner {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  .left-image img {
+    width: 90%;
+    margin-left: 19px;
+  }
+  .income-calculation {
+    width: 100%;
+  }
+  #income {
+    margin-left: 10px;
+  }
+  #food {
+    margin-left: 30px;
+  }
+  #rent {
+    margin-left: 33px;
+  }
+  #cloth {
+    margin-left: 8px;
+  }
+  #calculate-btn {
+    margin-left: 100px;
+  }
+  #save-btn {
+    width: 100px;
+    height: 44px;
+  }
+  #save {
+    margin-left: 10px;
+  }
+}

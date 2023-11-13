@@ -1,0 +1,37 @@
+.card-item{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding:30px;
+    margin-top: 20px;
+}
+.card-item img{
+    display: block;
+    margin: 0 auto;
+}
+.tool-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+.tool-price,
+.tool-min-order,
+.tool-available{
+    font-weight: 500;
+}
+
+@media (max-width:688px) {
+    .mobile-view{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-view img{
+        width: 250px;
+        /* margin-right: auto; */
+    }
+    .wrapper-container{
+        width: 350px !important;
+        /* background-color: rebeccapurple; */
+    }
+}

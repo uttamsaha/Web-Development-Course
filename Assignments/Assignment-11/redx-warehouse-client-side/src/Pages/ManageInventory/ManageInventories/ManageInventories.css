@@ -1,0 +1,10 @@
+.add-new-item{
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width:688px) {
+    .products{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

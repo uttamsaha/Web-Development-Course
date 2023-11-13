@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+    background-color: #151D3B;
+    padding-top: 25px;
+    padding-bottom: 8px;
+    margin-bottom: 70px;
+}
+.header h1{
+    margin: 0px;
+    color: white;
+    font-size: 46px;
+}
+.header p{
+    font-size: 22px;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    
+}
+@media (max-width:688px) {
+    .header{
+        margin-bottom: 30px;
+    }
+    .header h1{
+        font-size: 38px;
+    }
+    
+}
