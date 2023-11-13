@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my blog website</h1>
+    </header>
+
+    <main>
+        <section class="blogs">
+            <article class="blog">
+                <h3 id="first-title">My awesome blog 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci recusandae, tempore eius
+                    optio nemo repudiandae quae eveniet ullam. Molestias minima sunt numquam fuga impedit voluptate
+                    autem tempora provident! Adipisci!</p>
+            </article>
+            <article id ="second-blog" class="blog">
+                <h3 id="second-title">My awesome blog 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur animi quae nobis architecto
+                    aliquam quam sapiente non magnam ea officiis ipsam suscipit, neque cumque beatae dolorem recusandae
+                    consectetur quis doloribus.</p>
+            </article>
+            <article class="blog">
+                <h3>My awesome blog 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam quod voluptate ad! Dolor,
+                    consectetur quod ipsa eum nemo alias unde quisquam provident architecto accusamus, reiciendis vero
+                    enim voluptatem atque.</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        const blogs = document.getElementsByClassName('blog');
+        for(const blog of blogs){
+            blog.style.border = '5px solid orange';
+            blog.style.borderRadius = '10px';
+            blog.style.margin = '10px';
+            blog.style.padding = '10px';
+        }
+
+        const secondBlog = document.getElementById('second-blog');
+        secondBlog.setAttribute('text-alignment','center');
+
+    </script>
+</body>
+
+</html>

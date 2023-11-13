@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="secret-info">More events</h2>
+    <section>
+        <h3>Very very important secret information</h3>
+        <input id="delete-confrim" type="text" placeholder="Write delete to delete">
+        <button id="delete-btn" disabled>Delete</button>
+    </section>
+
+    <script>
+        document.getElementById('delete-btn').addEventListener('click', function(){
+            document.getElementById('secret-info').style.display = 'none';
+        });
+
+        //focus
+        document.getElementById('delete-confrim').addEventListener('focus', function(){
+            document.body.style.backgroundColor = 'lightcoral';
+        });
+        //blur
+        document.getElementById('delete-confrim').addEventListener('keyup', function(event){
+            if(event.target.value == 'delete'){
+                document.getElementById('delete-btn').removeAttribute('disabled');
+            }
+            else{
+                document.getElementById('delete-btn').setAttribute('disabled', true);
+            }
+        });
+
+         document.getElementById('delete-confrim').addEventListener('keyup', function () {
+                const input = document.getElementById('delete-confrim');
+                console.log(input.value);
+            });
+        // //keydown event
+        // document.getElementById('delete-confrim').addEventListener('keydown', function(){
+        //     const input = document.getElementById('delete-confrim');
+        //     console.log(input.value);
+        // });
+
+        //keypress event
+        // document.getElementById('delete-confrim').addEventListener('keypress', function(){
+        //     const input = document.getElementById('delete-confrim');
+        //     console.log(input.value);
+        // });
+        document.getElementById('delete-confrim').addEventListener('keyup', function(){
+            const input = document.getElementById('delete-confrim');
+            console.log(input.value);
+        });
+        ///Change event
+        document.getElementById('delete-confrim').addEventListener('change', function(){
+            const input = document.getElementById('delete-confrim');
+            console.log(input.value);
+        });
+
+
+    </script>
+</body>
+</html>

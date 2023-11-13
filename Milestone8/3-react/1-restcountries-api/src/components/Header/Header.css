@@ -1,0 +1,11 @@
+nav{
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

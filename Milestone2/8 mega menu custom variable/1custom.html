@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Custom Property</title>
+    <style>
+        :root{
+            --main-color:orange;
+            --border-color:orange;
+            --background-color:orange;
+            --border: 1px solid orange;
+        }
+        h1{
+            color: var(--main-color)
+        }
+        h2{
+            color:var(--main-color);
+            background-color: var(--background-color)
+        }
+        p{
+            color:var(--main-color);
+            border: var(--border);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I am exploreing CSS Cusotm property</h1>
+        <p>Welcome to my css custom property</p>
+    </header>
+
+    <main>
+        <h2>My awesome content</h2>
+    </main>
+    <footer>
+        <p><small>Copyright</small></p>
+    </footer>
+</body>
+</html>

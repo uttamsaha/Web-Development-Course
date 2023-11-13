@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div id="comment-container">
+            <h3>All comments</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam consequatur minus recusandae eaque consequuntur quia dicta iusto dolore tempora. Saepe ullam iste dolores soluta, rerum possimus nostrum. Inventore, error?    </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolore earum iusto repellat quam consequatur culpa in aliquam aperiam doloribus accusantium eum quia vero, accusamus voluptate dignissimos cumque beatae explicabo!</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <textarea id="text-area" name="" id="" cols="30" rows="10"></textarea> <br>
+            <button id="post-btn">Post</button>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('post-btn').addEventListener('click', function(){
+            const textArea = document.getElementById('text-area');
+
+            const p = document.createElement('p');
+            p.innerText = textArea.value;
+
+            const commentContainer = document.getElementById('comment-container');
+            commentContainer.appendChild(p);
+
+            textArea.value = '';
+        })
+    </script>
+</body>
+</html>

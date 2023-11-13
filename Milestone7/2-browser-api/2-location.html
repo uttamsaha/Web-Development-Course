@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+</head>
+<body>
+    <h1>Location</h1>
+    <button onclick="reloadPage()">Reload webpage</button>
+    <button onclick="visitGoogle()">Visit Google</button>
+    <button onclick="visitGoogles()">Google href</button>
+
+    <script>
+        const reloadPage = () => {
+            location.reload();
+        }
+        const visitGoogle = () => {
+            location.assign('https://google.com');
+        }
+        const visitGoogles = () => {
+            location.href = 'https://google.com';
+        }
+    </script>
+</body>
+</html>

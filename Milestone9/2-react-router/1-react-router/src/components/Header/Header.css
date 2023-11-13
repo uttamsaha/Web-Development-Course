@@ -1,0 +1,22 @@
+.nav .a{
+    text-decoration: none;
+}
+.a{
+    margin-left: 20px;
+    color: white;
+    background-color: crimson;
+    padding: 5px;
+    border-radius: 5px 5px 2px 2px;
+}
+.nav{
+    background-color: rgb(19, 18, 18);
+    padding: 10px 0px;
+    display: flex;
+    color: white;
+}
+.welcome-text{
+    background-color: crimson;
+    padding: 30px 0px;
+    margin: 0;
+    color: white;
+}

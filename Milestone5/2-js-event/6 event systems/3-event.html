@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+
+    <button id="make-blue-button">Click me: Blue</button>
+
+    <script>
+       const blueButton = document.getElementById('make-blue-button');
+       blueButton.onclick = makeBlue; //just write function name
+       function makeBlue(){
+           document.body.style.backgroundColor = 'blue';
+       }
+    </script>
+</body>
+
+</html>

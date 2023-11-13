@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1::before{
+            content: 'Hello ';
+            color: red;
+        }
+        h1::after{
+            content: ' Gello';
+            color: aqua;
+        }
+
+        blockquote::before{
+            content:open-quote;
+            color: red;
+            font-size: 2em;
+        }
+        blockquote::after{
+            content: close-quote;
+            color: red;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <h1>How are you</h1>
+
+    <section>
+        <h2>Quotes</h2>
+        <blockquote>Practice makes a man perfect</blockquote>
+    </section>
+</body>
+</html>

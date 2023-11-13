@@ -1,0 +1,19 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr; /* 4fr mane 4 vag 1 fr mane 1 vag total 5 vag er ekjon 4 vag nibe r ekhon 1 vag niibe */
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin: 100px 100px;
+}
+
+.cart-container{
+    background-color: rgba(255, 153, 0, 0.3);
+}
+@media screen  and (max-width:1400px) {
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+    }    
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+
+    <button id="golden-button">Click me: Green</button>
+
+    <script>
+        const goldenButton = document.getElementById('golden-button');
+
+       goldenButton.addEventListener('click',makeGoldenButton);
+       function makeGoldenButton(){
+           document.body.style.backgroundColor = 'goldenrod'
+       }
+    </script>
+</body>
+
+</html>

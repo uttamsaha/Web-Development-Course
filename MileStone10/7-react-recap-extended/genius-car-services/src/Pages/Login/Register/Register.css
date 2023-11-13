@@ -1,0 +1,8 @@
+.register-form input:not(type="checkbox"){
+    display: block;
+    width: 50%;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin: 0 auto;
+}
